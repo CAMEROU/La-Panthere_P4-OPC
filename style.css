@@ -14,18 +14,7 @@ body {
 }
 
 
-.nav li{
-    list-style-type: none;
-    margin: 0;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    @media (max-width:768px) {
-        .nav li{
-            padding-left:3rem;
-            padding-right:3rem;
-        }
-    }
-}
+
 
 a,
 button {
@@ -305,7 +294,6 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -660,12 +648,23 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+}.texte{
+    font-size: 1rem;
 }
 
+.white{
+    font-size: 1rem;
+}
 
 .tc-black{
 text-align: center;
     color: #FFF !important;
+}
+
+.ti-black{
+    text-align: center;
+    color: #FFF !important;
+    font-size: 1.2rem;
 }
 
 h1,
@@ -866,6 +865,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -877,13 +877,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -903,8 +903,8 @@ h4 {
     }
 
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: /*constant(safe-area-inset-left)*/25px;
+        padding-right: /*constant(safe-area-inset-right)*/25px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -914,8 +914,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: /*constant(safe-area-inset-left)*/25px;
+        padding-right:/* constant(safe-area-inset-right)*/25px;
     }
 }
 
@@ -1070,3 +1070,16 @@ h4 {
         text-align: center;
     }
 }
+
+.nav li{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+    @media (max-width:768px) {
+        .nav li{
+            padding-left:3rem;
+            padding-right:3rem;
+        }
+    }
