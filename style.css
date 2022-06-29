@@ -13,9 +13,6 @@ body {
     padding-left: 40px;
 }
 
-
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -316,6 +313,22 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+}
+
+
+.remplacement-texte{
+    font-size: 1rem;
+}
+
+.texte__citation{
+    font-size: 1.2rem;
+    width: 513px;
+    margin: 0;
+    
+}
+
+.auteur{
+    font-weight: 400;
 }
 
 .navbar-brand img[src$=svg] {
@@ -649,10 +662,6 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }.texte{
-    font-size: 1rem;
-}
-
-.white{
     font-size: 1rem;
 }
 
