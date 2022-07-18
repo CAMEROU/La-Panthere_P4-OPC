@@ -273,8 +273,42 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+.texte__citation{
+    font-size: 22px;
+}
+
+.auteur{
+    font-size: 18px;
+}
+
+.text-center{
+    font-size: 18px;
+}
+
+.social{
+    font-size: 26px;
+}
+
+#wrap{
+    align-items: center;
+    text-align: center;
+
+}
+
 .voffset {
     margin-top: 30px;
+}
+
+.ti-black {
+    font-size: 18px;
+}
+
+.tc-black{
+    font-size: 2rem;
+}
+
+input{
+    font-size: 1.5rem;
 }
 
 .voffset-lg {
@@ -317,7 +351,11 @@ a:hover {
 
 
 .remplacement-texte{
-    font-size: 1rem;
+    font-size: 18px;
+}
+
+.icon-md{
+    font-size: 9px;
 }
 
 .texte__citation{
@@ -568,7 +606,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+   /* background: rgba(0, 0, 0, .6);*/
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -603,7 +641,7 @@ a[data-lightbox]:hover img {
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
-    background: rgba(0, 0, 0, .5);
+   /* background: rgba(0, 0, 0, .5);*/
     position: absolute;
     left: 15px;
     right: 15px;
@@ -673,7 +711,6 @@ text-align: center;
 .ti-black{
     text-align: center;
     color: #FFF !important;
-    font-size: 1.2rem;
 }
 
 h1,
@@ -790,7 +827,7 @@ h4 {
 }
 
 .black-background {
- background-color: rgba(165, 147, 99, 0.7);
+ /*background-color: rgba(165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -814,6 +851,10 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+.tc-black{
+    font-size: 1.5rem;
+}
+
 
 .btn-atomic-tangerine {
     background: #c27956 !important;
@@ -843,7 +884,7 @@ h4 {
 
 .icon-dark-slate-blue {
     color: #364577!important;
-    border-color: #364577!important;
+   /* border-color: #364577!important;*/
 }
 
 .bg-dots-bg {
@@ -982,13 +1023,13 @@ h4 {
         border-left-color: transparent;
     }
     #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
+      /*  background: rgba(0, 0, 0, .8);*/
     }
     #hero-bloc .navbar .nav a {
         color: rgba(255, 255, 255, .6);
     }
     .hero {
-        padding: 50px 0;
+        padding: 20px 0;
     }
     .hero-nav {
         left: -1px;
@@ -1019,7 +1060,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 10px 0;
     }
     .bloc-sm,
     .bloc-md {
@@ -1035,7 +1076,7 @@ h4 {
         padding-right: 0;
     }
     .a-block {
-        padding: 0 10px;
+        padding: 0 5px;
     }
     .btn-dwn {
         display: none;
@@ -1044,10 +1085,10 @@ h4 {
         margin-top: 5px;
     }
     .voffset-md {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .voffset-lg {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     form {
         padding: 5px;
