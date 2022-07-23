@@ -676,9 +676,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 15px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -707,19 +704,17 @@ p {
 
 .texte_citation{
     font-size: 20px;
+    color: #000000;
 }
 
 .auteur{
     font-weight: 600;
+    color: #000000;
 }
 
 .to-black{
     font-size: 22px;
     margin-left: 0.3rem;
-}
-
-#page{
-    margin-left: -230px;
 }
 
 h2 {
@@ -793,24 +788,12 @@ h4 {
 }
 .texte{
     color: #FFFFFF !important;
-    margin-left: 0.3rem;
     font-size: 15px;
 }
 input{
     font-size: 13.8px;
 }
-@media (max-width:768px) {
-#page{
-    margin-left: 0.01rem;
-}}
 
- .page, ul li{
-    margin-left: -2rem;
-}
-
-ul li{
-    list-style-type: none;
-}
 .tc-black{
     color: #FFFFFF !important;
 }
@@ -820,12 +803,12 @@ p{
 }
 
 .btn-atomic-tangerine {
-    background: #c27956;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C;
+    background:#c27956;
     color: #FFFFFF!important;
 }
 
@@ -861,9 +844,6 @@ p{
     background-image: url("img/image-de-presentation.webp");
 }
 
-a{
-    text-decoration: none;
-}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
