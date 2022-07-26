@@ -826,6 +826,10 @@ p{
     color: #FFFFFF!important;
 }
 
+.texte{
+    color: #000000;
+}
+
 .ltc-white:hover {
     color: #cccccc!important;
 }
