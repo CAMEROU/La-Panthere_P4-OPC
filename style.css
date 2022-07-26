@@ -813,12 +813,12 @@ p{
 }
 
 .btn-atomic-tangerine {
-    background: lightsalmon!important;
+    background: rgb(79, 79, 207)!important;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background:lightcoral !important;
+    background:lightblue !important;
     color: #FFFFFF!important;
 }
 
