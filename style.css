@@ -90,6 +90,12 @@ a:hover {
     right: 0;
 }
 
+.te-white{
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
@@ -784,7 +790,7 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
-    font-size: 15px;
+    font-size: 18px;
 }
 .texte{
     color: #FFFFFF !important;
@@ -798,17 +804,21 @@ input{
     color: #FFFFFF !important;
 }
 
+.tu-white{
+    font-size: 25px;
+}
+
 p{
     font-size: 18px;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:  #c06f49!important;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background:#c27956;
+    background:#d89d81 !important;
     color: #FFFFFF!important;
 }
 
@@ -844,6 +854,7 @@ p{
     background-image: url("img/image-de-presentation.webp");
 }
 
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -867,13 +878,13 @@ p{
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media  (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -899,8 +910,9 @@ p{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+    }
 }
-}
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
