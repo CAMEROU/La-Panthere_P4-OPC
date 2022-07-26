@@ -827,7 +827,8 @@ p{
 }
 
 .texte{
-    color: #000000;
+    color: #000000 !important;
+    background-color: #000000 !important;
 }
 
 .ltc-white:hover {
