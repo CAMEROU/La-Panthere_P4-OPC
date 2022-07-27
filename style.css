@@ -718,16 +718,39 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
-    color: #000000 !important;
+    color: #1b1b1b !important;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #000000!important;
+}
+
+.to-white{
+    font-size: 18px;
+    color: #FFFFFF !important;
+}
+.te-white{
+    font-size: 22px;
+    color: #FFFFFF !important;
+}
+
+.tr-white{
+    color: #FFFFFF !important;
+    font-size: 18px;
+}
+
+.form-group{
+    font-size: 18px;
+    padding: 0 1rem;
+}
+
+.bloc-button{
+    padding: 1rem;
 }
 
 .med-width-whitespace {
