@@ -804,6 +804,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+aside{
+    color: #FFFFFF !important;
+}
+/*
 .ltc-white:hover {
     color: #cccccc!important;
 }
@@ -814,7 +818,7 @@ h4 {
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
-}
+}*/
 
 .icon-dark-slate-blue {
     color: #364577!important;
