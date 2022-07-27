@@ -461,7 +461,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none!important; 
 }
 
 .btn-rd {
@@ -807,18 +807,6 @@ h4 {
 aside{
     color: #FFFFFF !important;
 }
-/*
-.ltc-white:hover {
-    color: #cccccc!important;
-}
-
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
-}
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956!important;
-}*/
 
 .icon-dark-slate-blue {
     color: #364577!important;
