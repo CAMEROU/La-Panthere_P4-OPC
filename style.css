@@ -806,7 +806,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #364577;
+    background-color: rgb(53, 53, 206) !important;
 }
 
 .tc-white {
@@ -815,12 +815,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: rgba(20, 88, 233, 0.589) !important;
+    background: rgb(89, 89, 241);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: rgb(108, 213, 248)!important;
+    background: blue!important;
     color: #FFFFFF!important;
 }
 
@@ -833,8 +833,8 @@ aside{
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #484848!important;
+    border-color: #484848!important;
 }
 
 .bg-dots-bg {
